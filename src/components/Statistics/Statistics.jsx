@@ -12,6 +12,7 @@ export const Statistics = ({title, stats}) => {
                     <span className={styles.percentage}>{stat.percentage}%</span>
                 </li>
             ))}
+            
         </ul>
     </section>)
 }

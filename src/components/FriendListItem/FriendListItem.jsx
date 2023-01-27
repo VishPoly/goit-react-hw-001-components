@@ -10,6 +10,7 @@ export const FriendListItem = ({avatar, name, isOnline}) => {
             <p className={styles.name}>{name}</p>
         </li>
     ) 
+    
 }
 
 FriendListItem.propTypes = {
