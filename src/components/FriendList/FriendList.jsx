@@ -12,6 +12,7 @@ export const FriendList = ({friends}) => {
     )
 }
 
+
 FriendList.propTypes = {
     friends: propTypes.arrayOf(
         propTypes.shape({
